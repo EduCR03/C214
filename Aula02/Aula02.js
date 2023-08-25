@@ -10,37 +10,21 @@ class Filme {
         this.avaliacao = avaliacao;
     }
 
-    getTitulo() {
-        return this.titulo;
-    }
+    getTitulo() {return this.titulo;}
 
-    getAno() {
-        return this.ano;
-    }
+    getAno() {return this.ano;}
 
-    getGenero() {
-        return this.genero;
-    }
+    getGenero() {return this.genero;}
 
-    getDuracao() {
-        return this.duracao;
-    }
+    getDuracao() {return this.duracao;}
 
-    isAssistido() {
-        return this.assistido;
-    }
+    isAssistido() {return this.assistido;}
 
-    getAvaliacao() {
-        return this.avaliacao;
-    }
+    getAvaliacao() {return this.avaliacao;}
 
-    avaliar(avaliacao) {
-        this.avaliacao = avaliacao;
-    }
+    avaliar(avaliacao) {this.avaliacao = avaliacao;}
 
-    assistido(){
-        this.assistido = true
-    }
+    assistido(){this.assistido = true}
 
     exibirDetalhes() {
         console.log("Título:", this.getTitulo());
