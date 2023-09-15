@@ -1,0 +1,11 @@
+Testes Funcionais:
+Avaliam as funcionalidades do software
+Verificam se o software faz o que é esperado
+
+Ex: Testes de login, busca, cadastro
+
+Testes Nao funcionais:
+Avaliam atributos nao relacionados a funcionalidade, como desempenho, seguranca e usabilidade
+Verificam como software se comporta em diferentes condicoes
+
+Ex: Testes de carga, testes de seguranca, teste de usabilidade
