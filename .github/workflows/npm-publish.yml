@@ -21,10 +21,13 @@ jobs:
         
       - name: Install dependencies and build
         run: |
-          npm ci
-          npm run build
+          ls
+          cd Aula05
+          npm install
+
 
   test:
+    needs: build
     runs-on: ubuntu-latest
     
     steps:
