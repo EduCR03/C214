@@ -36,6 +36,7 @@ jobs:
         
       - name: Install dependencies and run tests
         run: |
+          cd Aula05
           npm ci
           npm test
 
